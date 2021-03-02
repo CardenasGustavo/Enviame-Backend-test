@@ -14,16 +14,8 @@ export const signUp = async (req, res) => {
       password: await User.encryptPassword(password),
     });
 
-    // checking for roles
     if (req.body.role) {
         newUser.role = req.body.role
-    //   const ROLES = ["user", "admin"];
-    //   const foundRoles = ROLES.find(element => element === req.body.role);
-    //   if(foundRoles){
-    //     newUser.role = req.body.role;
-    //   }else{
-    //     return res.status(400).json('Role not found');
-    //   }
       
     } else {
        newUser.role = "user";

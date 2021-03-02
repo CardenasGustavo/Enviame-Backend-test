@@ -10,7 +10,7 @@ app.disable('x-powered-by');
 app.use(express.json())
 app.use(morgan('dev'));
 
-app.get('/' , (req, res) => {
+app.get('/', (req, res) => {
     res.json('Service up')
 })
 
