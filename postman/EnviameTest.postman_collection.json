@@ -83,7 +83,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/products",
+							"raw": "http://localhost:5000/api/parcels",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -91,7 +91,7 @@
 							"port": "5000",
 							"path": [
 								"api",
-								"products"
+								"parcels"
 							]
 						}
 					},

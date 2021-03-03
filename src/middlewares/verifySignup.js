@@ -18,10 +18,8 @@ const checkRolesExisted = (req, res, next) => {
     if (req.body.role) {
         const ROLES = ["user", "admin"];
         const foundRoles = ROLES.find(element => element === req.body.role);
-        if (foundRoles) {
-            newUser.role = req.body.role;
-        } else {
-            return res.status(400).json({
+        if (!foundRoles) {
+                return res.status(400).json({
                 message: `Role ${req.body.role} does not exist`,
             });
         }
