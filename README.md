@@ -1,6 +1,6 @@
 # Título del Proyecto
 
-Proyecto para
+Proyecto para Backend Test: Desafío Envíame
 
 ## Comenzando 🚀
 
@@ -16,7 +16,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 
 ### Instalación 🔧
-Al ejecutar el comando se descargaran y crearán todos los paquetes necesarios.
+Al ejecutar el comando se descargarán y crearán todos los paquetes necesarios.
 - docker-compose up
 
 ## Ejecutando las pruebas ⚙️
@@ -26,15 +26,15 @@ Al ejecutar el comando se descargaran y crearán todos los paquetes necesarios.
     . Desde Auth ejecutar signup y guardar el token generado. Los roles son admin y user.
     . Desde la carpeta Parcels se encuentra:
         
-        - createParcel (get): Se pueden crear los envíos. El método de autenticación es bearer token, por lo que se le debe agregar el token entregado anteriormente al momento de crear el usuario. Rol user y admin tienen acceso.
+        - createParcel (get): Se pueden crear los envíos. El método de autenticación es bearer token, por lo que se le debe agregar el token entregado al momento de crear el usuario. Rol user y admin tienen acceso.
         
-        - getParcels (get): Obtiene la lista de todos los envíos existentes. El método de autenticación es bearer token, por lo que se le debe agregar el token entregado anteriormente al momento de crear el usuario. Rol user y admin tienen acceso.
+        - getParcels (get): Obtiene la lista de todos los envíos existentes. El método de autenticación es bearer token, por lo que se le debe agregar el token entregado al momento de crear el usuario. Rol user y admin tienen acceso.
         
-        - getParcelByid (get): Busca un envío (id) que se pasa por parámetro en la URL. El método de autenticación es bearer token, por lo que se le debe agregar el token entregado anteriormente al momento de crear el usuario. Rol user y admin tienen acceso.
+        - getParcelByid (get): Busca un envío (id) que se pasa por parámetro en la URL. El método de autenticación es bearer token, por lo que se le debe agregar el token entregado al momento de crear el usuario. Rol user y admin tienen acceso.
 
-        - updateParcelById (put): Se puede modificar uno o todos los datos del envío pasando por URL el id. El método de autenticación es bearer token, por lo que se le debe agregar el token entregado anteriormente al momento de crear el usuario. Rol user y admin tienen acceso.
+        - updateParcelById (put): Se puede modificar uno o todos los datos del envío pasando por URL el id. El método de autenticación es bearer token, por lo que se le debe agregar el token entregado al momento de crear el usuario. Rol user y admin tienen acceso.
 
-        - deleteParcelById (delete): Se elimina un envío, pasando el id por la URL. El método de autenticación es bearer token, por lo que se le debe agregar el token entregado anteriormente al momento de crear el usuario. Rol admin tiene acceso.
+        - deleteParcelById (delete): Se elimina un envío, pasando el id por la URL. El método de autenticación es bearer token, por lo que se le debe agregar el token entregado al momento de crear el usuario. Rol admin tiene acceso.
 
 - Para la pregunta 3 de debe ejecutar el comando node test/test3.js
 - Para la pregunta 4 de debe ejecutar el comando node test/test4.js
